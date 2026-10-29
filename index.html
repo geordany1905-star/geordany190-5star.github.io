@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geordany Tolentino  | Ingeniero de Software</title>
+    <title>Geordany Tolentino | Ingeniero de Software & Analista de Datos</title>
     <style>
         body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #0f172a; color: #e2e8f0; }
         header { background: #1e293b; padding: 4rem 2rem; text-align: center; border-bottom: 1px solid #334155; }
@@ -23,20 +23,23 @@
 <body>
 
     <header>
-        <h1>Geordany</h1>
-        <p class="subtitle">Ingeniero de Software</p>
-        <p>Especializado en desarrollo de software, optimización de sistemas y gestión de bases de datos.</p>
+        <h1>Geordany Tolentino</h1>
+        <p class="subtitle">Estudiante en Término de Ingeniería de Software</p>
+        <p>Especializado en desarrollo de software, gestión de bases de datos relacionales y análisis de datos avanzado.</p>
     </header>
 
     <div class="container">
         <!-- SOBRE MÍ -->
         <section id="sobre-mi">
             <h2>Sobre Mí</h2>
-            <p>Desarrollador enfocado en la creación de aplicaciones eficientes y el análisis de datos. Cuento con experiencia práctica diseñando arquitecturas y mejorando el rendimiento en motores de bases de datos relacionales.</p>
+            <p>Próximo a graduarme en Ingeniería de Software. Enfocado en combinar el desarrollo de aplicaciones robustas con la inteligencia de negocios y la analítica. Cuento con experiencia práctica en el modelado y optimización de bases de datos relacionales, así como en la implementación de soluciones estructuradas con lenguajes como Python, Java y herramientas de visualización como Power BI.</p>
             <div>
-                <span class="tech-badge">Java</span>
-                <span class="tech-badge">Python</span>
+                <span class="tech-badge">SQL Server</span>
                 <span class="tech-badge">PostgreSQL</span>
+                <span class="tech-badge">SQLite</span>
+                <span class="tech-badge">Power BI</span>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Java</span>
                 <span class="tech-badge">HTML / CSS</span>
                 <span class="tech-badge">Git & GitHub</span>
             </div>
@@ -46,7 +49,20 @@
         <section id="proyectos">
             <h2>Proyectos Destacados</h2>
             
-            <!-- Proyecto 1 -->
+            <!-- Proyecto 1: MiniMarket -->
+            <div class="project">
+                <h3>🛒 MiniMarket – Sistema Modular de Ventas e Inventario</h3>
+                <p><strong>El Problema:</strong> Falta de control centralizado y automatizado para pequeños comercios al gestionar inventarios de productos, validar accesos de usuarios y registrar transacciones de venta de forma segura.</p>
+                <p><strong>Mi Solución:</strong> Desarrollé una aplicación de escritorio basada en arquitectura modular. El sistema inicializa automáticamente las tablas relacionales, integra una pasarela de autenticación (Login) y conecta la lógica de negocio con una base de datos local para la persistencia de datos.</p>
+                <p>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">SQLite</span>
+                    <span class="tech-badge">Arquitectura Modular</span>
+                </p>
+                <a href="https://github.com" class="btn" target="_blank">Ver Código en GitHub</a>
+            </div>
+
+            <!-- Proyecto 2: RenCar -->
             <div class="project">
                 <h3>🚗 RenCar – Sistema de Gestión de Alquiler</h3>
                 <p><strong>El Problema:</strong> Falta de un sistema centralizado para administrar flotas de vehículos y controlar la disponibilidad de reservas en tiempo real.</p>
@@ -59,14 +75,28 @@
                 <a href="https://github.com" class="btn" target="_blank">Ver Código en GitHub</a>
             </div>
 
-            <!-- Proyecto 2 -->
+            <!-- Proyecto 3: Optimización -->
             <div class="project">
-                <h3>📊 Optimización de Consultas en PostgreSQL</h3>
-                <p><strong>El Problema:</strong> Lentitud y alto consumo de recursos al realizar búsquedas en bases de datos con volúmenes crecientes de registros.</p>
-                <p><strong>Mi Solución:</strong> Diseñé e implementé estrategias de indexación avanzada, reduciendo drásticamente los tiempos de respuesta en consultas complejas.</p>
+                <h3>📊 Tarea de Optimización en PostgreSQL</h3>
+                <p><strong>El Problema:</strong> Lentitud y alto consumo de recursos informáticos al realizar búsquedas complejas en bases de datos con volúmenes crecientes de registros.</p>
+                <p><strong>Mi Solución:</strong> Diseñé e implementé estrategias de indexación avanzada y afinamiento de consultas de rendimiento para reducir drásticamente los tiempos de respuesta del servidor.</p>
                 <p>
                     <span class="tech-badge">PostgreSQL</span>
+                    <span class="tech-badge">Indexación Avanzada</span>
                     <span class="tech-badge">SQL Tuning</span>
+                </p>
+                <a href="https://github.com" class="btn" target="_blank">Ver Código en GitHub</a>
+            </div>
+
+            <!-- Proyecto 4: Login Python -->
+            <div class="project">
+                <h3>🔒 Sistema de Autenticación y Login</h3>
+                <p><strong>El Problema:</strong> Necesidad de un módulo seguro y centralizado para controlar el acceso de usuarios a sistemas informáticos protegiendo las credenciales.</p>
+                <p><strong>Mi Solución:</strong> Desarrollé una solución de login en Python aplicando flujos de control de acceso lógicos y validación segura de datos de usuario.</p>
+                <p>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Seguridad Lógica</span>
+                    <span class="tech-badge">Autenticación</span>
                 </p>
                 <a href="https://github.com" class="btn" target="_blank">Ver Código en GitHub</a>
             </div>
@@ -75,13 +105,15 @@
         <!-- CONTACTO -->
         <section id="contacto">
             <h2>Contacto</h2>
-            <p>¿Interesado en trabajar juntos o conocer más sobre mi código?</p>
-            <a href="https://github.com" class="btn" target="_blank">Mi Perfil de GitHub</a>
+            <p>¿Interesado en trabajar juntos, conocer más sobre mis proyectos o evaluar mi perfil técnico?</p>
+            <p>📧 <strong>Correo:</strong> <a href="mailto:tu-correo@gmail.com">geordany1997@gmail.com</a></p>
+            <p>📞 <strong>Teléfono:</strong> <a href="tel:+18090000000">849-656-1905</a></p>
+            <a href="https://github.com" class="btn" target="_blank">https://github.com/geordany1905-star</a>
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2026 Geordany. Diseñado como portafolio técnico.</p>
+        <p>&copy; 2026 Geordany Tolentino. Portafolio de Ingeniería de Software & Analítica.</p>
     </footer>
 
 </body>
